@@ -1,38 +1,63 @@
-.App {
+.menu-bar{
+  width: 45px;
+  height: 123vh;
+  border: 2px black solid;
+  border-top: 0px;
+  padding-top: 20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin-top: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body{
   display: flex;
-  flex-direction: column;
+}
+.icon{
+  color:red;
+}
+.header{
+  display: flex;
+  gap:0.5rem;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.header h1{
+  font-size: 45px;
 }
+input{
+  width: 300px;
+  height: 30px;
+  margin: 25px;
+  margin-left: 60px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.voice{
+  width: 32px;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid black;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 20px;
+}
+img{
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 1px 1px;
+  height: 200px;
+}
+.video{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.title{
+  margin: 0;
+  padding: 0;
+}
+.video1  , .video2 , .video3 , .video4 , .video5 , .video6{
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px;
+  border-radius: 20px;
+  margin:4px;
+  height: 350px;
 }
